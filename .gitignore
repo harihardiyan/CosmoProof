@@ -1,0 +1,26 @@
+# Dependencies
+/node_modules
+/venv
+/client/node_modules
+/client/build
+
+# ZK Artifacts
+/circuits/build
+/circuits/*.zkey
+/circuits/*.r1cs
+/circuits/*.wasm
+/circuits/*.sym
+/circuits/witness.wtns
+/circuits/verification_key.json
+/circuits/proof.json
+/circuits/public.json
+/circuits/input.json
+/circuits/temp_poseidon.json
+/circuits/*.ptau 
+
+# Hardhat
+/cache
+/artifacts
+
+# Environment
+.env
